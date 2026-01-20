@@ -1,0 +1,10 @@
+.random-element {
+  /* Use the custom property to set a random background color */
+  background-color: hsl(var(--random-hue), 70%, 50%);
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: inline-block;
+  /* You can even randomize animation properties like duration or delay */
+  animation-duration: 2s; /* Initial value, overwritten by JS */
+}
